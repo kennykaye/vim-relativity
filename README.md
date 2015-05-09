@@ -6,7 +6,7 @@ vim-relativity
 Installation
 ------------
 
-Use your favorite plugin manager.
+Please use your favorite plugin manager.
 
 - [vim-plug](https://github.com/junegunn/vim-plug)
   1. Add `Plug 'kennykaye/vim-relativity'` to .vimrc
@@ -23,19 +23,19 @@ Usage
 Configuration
 -------------
 
-- `g:relativity_buffer_toggle` (default: 1)
-- `g:relativity_window_toggle` (default: 1)
-- `g:relativity_insert_toggle` (default: 1)
-- `g:relativity_focus_toggle` (default: 1)
-- `g:relativity_current_absolute` (default: 1)
-- `g:relativity_enabled_on_start` (default: 1)
-- `g:relativity_buftype_ignore` (default: `['nofile']`)
-- `g:relativity_filetype_ignore` (default: `['ControlP', 'nerdtree', 'fugitive', 'tagbar', 'agsv']`)
+| Option                              | Default | Description                                          |
+| ----------------------------------- | ------- | ---------------------------------------------------- |
+| `g:relativity_insert_toggle`        | 1       | Enables toggling on `InsertEnter` and `InsertLeave`. |
+| `g:relativity_focus_toggle`         | 1       | Enables toggling on `FocusEnter` and `FocusLeave`.   |
+| `g:relativity_current_absolute`     | 1       | Displays absolute line number for current line.      |
+| `g:relativity_enabled_on_start`     | 1       | Enable Relativity automatically when vim starts.     |
+| `g:relativity_buftype_ignore`       | `['nofile']` | A list of buffer types to disable toggling for. |
+| `g:relativity_filetype_ignore`      | `['controlp', 'nerdtree', 'fugitive', 'tagbar', 'agsv']` | A list of filetypes to disable toggling for. |
 
 Inspiration
 -----------
 
-- [vim-numbertoggle](https://github.com/jeffkreeftmeijer/vim-numbertoggle)
+Inspired by [numbers.vim](https://github.com/myusuf3/numbers.vim) and [vim-numbertoggle](https://github.com/jeffkreeftmeijer/vim-numbertoggle)
 
 License
 -------
