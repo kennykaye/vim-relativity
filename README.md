@@ -3,24 +3,28 @@ vim-relativity
 
 > Toggle relative line numbers with ease.
 
+Demo
+----
+<img src="http://i.imgur.com/yta9Pvr.gifv" height="494" alt="Screencast">
+
 Installation
 ------------
 
-Please use your favorite plugin manager.
+Please Use your favorite plugin manager.
 
-- [vim-plug](https://github.com/junegunn/vim-plug)
-  1. Add `Plug 'kennykaye/vim-relativity'` to .vimrc
-  2. Run `:PlugInstall`
+Using [vim-plug](https://github.com/junegunn/vim-plug):
+```vim
+  Plug 'kennykaye/vim-relativity'
+```
 
-Usage
+Commands
 -----
+| Command        | Description              |
+| -------------- | ------------------------ |
+| `:Relativity`  | Toggle Relativity on/off |
+| `:Relativity!` | Turn Relativity off      |
 
-- `:Relativity`
-    - Toggle Relativity
-- `:Relativity!`
-    - Turn Relativity off
-
-Configuration
+Options
 -------------
 
 | Option                              | Default | Description                                          |
