@@ -54,8 +54,9 @@ and |:Relativity!| respectively.
 
 :Relativity                                                      *:Relativity*
 
-This command enables Relativity. This is particularly useful when you have set
-|'relativity_enabled_on_start=0'| or you have previously disabled Relativity.
+This command toggles Relativity on and off. This is particularly useful when
+you have set |'relativity_enabled_on_start=0'| or you have previously disabled
+Relativity.
 
 
 :Relativity!                                                    *:Relativity!*
