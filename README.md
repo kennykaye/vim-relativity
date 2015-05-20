@@ -5,12 +5,12 @@ vim-relativity
 
 Demo
 ----
-<img src="http://i.imgur.com/yta9Pvr.gifv" height="494" alt="Screencast">
+![relativity](https://cloud.githubusercontent.com/assets/3267574/7719035/41cacac0-fe6f-11e4-9c7e-927552589a49.gif)
 
 Installation
 ------------
 
-Please Use your favorite plugin manager.
+Please use your favorite plugin manager.
 
 Using [vim-plug](https://github.com/junegunn/vim-plug):
 ```vim
