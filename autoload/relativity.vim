@@ -58,10 +58,10 @@ function s:relativity_on()
   augroup relativity
     autocmd!
     if g:relativity_focus_toggle
-      autocmd BufEnter *    call s:enable_relative_number()
-      autocmd BufLeave *    call s:disable_relative_number()
-      autocmd WinEnter *    call s:enable_relative_number()
-      autocmd WinLeave *    call s:disable_relative_number()
+      autocmd BufEnter *    if !pumvisible() | call s:enable_relative_number() | endif
+      autocmd BufLeave *    if !pumvisible() | call s:disable_relative_number() | endif
+      autocmd WinEnter *    if !pumvisible() | call s:enable_relative_number() | endif
+      autocmd WinLeave *    if !pumvisible() | call s:disable_relative_number() | endif
       autocmd FocusLost *   call s:disable_relative_number()
       autocmd FocusGained * call s:enable_relative_number()
     endif
