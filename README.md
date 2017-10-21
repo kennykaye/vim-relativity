@@ -34,7 +34,7 @@ Options
 | `g:relativity_current_absolute`     | 1       | Displays absolute line number for current line.      |
 | `g:relativity_enabled_on_start`     | 1       | Enable Relativity automatically when vim starts.     |
 | `g:relativity_buftype_ignore`       | `['nofile']` | A list of buffer types to disable toggling for. |
-| `g:relativity_filetype_ignore`      | `['controlp', 'nerdtree', 'fugitive', 'tagbar', 'agsv']` | A list of filetypes to disable toggling for. |
+| `g:relativity_filetype_ignore`      | `['controlp', 'nerdtree', 'fugitive', 'tagbar', 'agsv', 'fzf']` | A list of filetypes to disable toggling for. |
 
 Inspiration
 -----------
